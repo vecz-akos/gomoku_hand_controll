@@ -7,6 +7,6 @@ This Python project allows you to play Gomoku by placing X's and O's using your 
 ## Todo list
 
  - [x] Implement game logic and state tracking
- - [ ] Create a user interface for displaying the game board
+ - [x] Create a user interface for displaying the game board
  - [ ] Read and process the webcam stream
  - [ ] Develop hand gesture recognition for piece placement
