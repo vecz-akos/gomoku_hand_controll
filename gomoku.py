@@ -42,7 +42,7 @@ class GomokuState:
         return Sign.EMPTY
     
     def set_step(self, row, col):
-        if self.is_end_state or self.current_step != [-1, -1]:
+        if self.is_end_state:
             raise Exception(f"Not valid step!")
         if 0 <= row < len(self.board) and 0 <= col < len(self.board[0]) and self[row, col] is Sign.EMPTY:
             self.current_step = [row, col]
